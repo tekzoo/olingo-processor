@@ -1,0 +1,14 @@
+package com.tekzoo.odata.processor.core.serializer;
+
+import org.apache.olingo.commons.api.data.Annotatable;
+import org.apache.olingo.commons.api.edm.EdmType;
+import org.apache.olingo.server.api.ODataRequest;
+import org.apache.olingo.server.api.serializer.SerializerException;
+import org.apache.olingo.server.api.serializer.SerializerResult;
+
+import com.tekzoo.odata.processor.core.exception.ODataJPASerializerException;
+
+public interface JPAOperationSerializer extends JPASerializer {
+  public SerializerResult serialize(final Annotatable result, final EdmType entityType, final ODataRequest request)
+      throws SerializerException, ODataJPASerializerException;
+}
