@@ -18,10 +18,10 @@ import java.util.stream.Collectors;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.From;
-import javax.persistence.criteria.Order;
-import javax.persistence.criteria.Path;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.From;
+import jakarta.persistence.criteria.Order;
+import jakarta.persistence.criteria.Path;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -247,7 +247,7 @@ final class JPAOrderByBuilder {
   }
 
   private void addOrderByExpression(final List<Order> orders, final OrderByItem orderByItem,
-      final javax.persistence.criteria.Expression<?> expression) {
+      final jakarta.persistence.criteria.Expression<?> expression) {
 
     if (orderByItem.isDescending())
       orders.add(cb.desc(expression));

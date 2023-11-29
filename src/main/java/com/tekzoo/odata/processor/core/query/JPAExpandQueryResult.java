@@ -11,7 +11,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 import javax.annotation.Nonnull;
-import javax.persistence.Tuple;
+import jakarta.persistence.Tuple;
 
 import org.apache.olingo.commons.api.data.EntityCollection;
 import org.apache.olingo.commons.api.http.HttpStatusCode;

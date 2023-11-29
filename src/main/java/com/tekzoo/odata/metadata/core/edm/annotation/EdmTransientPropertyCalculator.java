@@ -8,7 +8,7 @@ import java.util.List;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import javax.persistence.Tuple;
+import jakarta.persistence.Tuple;
 
 /**
  * Transient property converter.<p>
@@ -25,7 +25,7 @@ import javax.persistence.Tuple;
  * request in case of $batch requests. <p>
  * An implementing class may provide <b>one</b> constructor having no parameter or a combination of the following:
  * <ul>
- * <li>An Entity Manager: javax.persistence.EntityManager</li>
+ * <li>An Entity Manager: jakarta.persistence.EntityManager</li>
  * <li>All header: com.tekzoo.odata.metadata.api.JPAHttpHeaderMap</li>
  * <li>Access to own request parameter: com.tekzoo.odata.metadata.api.JPARequestParameterMap</li>
  * </ul>

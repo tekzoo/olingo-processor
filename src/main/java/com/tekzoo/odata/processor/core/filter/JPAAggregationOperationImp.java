@@ -1,7 +1,7 @@
 package com.tekzoo.odata.processor.core.filter;
 
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.From;
+import jakarta.persistence.criteria.Expression;
+import jakarta.persistence.criteria.From;
 
 import org.apache.olingo.server.api.ODataApplicationException;
 

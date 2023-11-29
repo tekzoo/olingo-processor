@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import javax.persistence.criteria.Selection;
+import jakarta.persistence.criteria.Selection;
 
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAAttribute;
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAPath;

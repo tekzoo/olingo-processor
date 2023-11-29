@@ -1,6 +1,6 @@
 package com.tekzoo.odata.metadata.core.edm.mapper.impl;
 
-import javax.persistence.JoinColumn;
+import jakarta.persistence.JoinColumn;
 
 import com.tekzoo.odata.metadata.api.JPAJoinColumn;
 

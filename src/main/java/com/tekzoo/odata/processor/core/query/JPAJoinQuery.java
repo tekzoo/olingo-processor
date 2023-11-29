@@ -12,11 +12,11 @@ import java.util.Map;
 import java.util.Optional;
 
 import javax.annotation.Nonnull;
-import javax.persistence.Tuple;
-import javax.persistence.TypedQuery;
-import javax.persistence.criteria.AbstractQuery;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.From;
+import jakarta.persistence.Tuple;
+import jakarta.persistence.TypedQuery;
+import jakarta.persistence.criteria.AbstractQuery;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.From;
 
 import org.apache.olingo.commons.api.edm.EdmBindingTarget;
 import org.apache.olingo.commons.api.ex.ODataException;
@@ -96,7 +96,7 @@ public class JPAJoinQuery extends JPAAbstractJoinQuery implements JPACountQuery 
     try {
       createFromClause(Collections.emptyList(), Collections.emptyList(), countQuery, lastInfo);
 
-      final javax.persistence.criteria.Expression<Boolean> whereClause = createWhere();
+      final jakarta.persistence.criteria.Expression<Boolean> whereClause = createWhere();
       if (whereClause != null)
         countQuery.where(whereClause);
       countQuery.select(cb.countDistinct(target));
@@ -122,7 +122,7 @@ public class JPAJoinQuery extends JPAAbstractJoinQuery implements JPACountQuery 
       cq.multiselect(createSelectClause(joinTables, selectionPath.joinedPersistent(), target, groups))
           .distinct(determineDistinct());
 
-      final javax.persistence.criteria.Expression<Boolean> whereClause = createWhere();
+      final jakarta.persistence.criteria.Expression<Boolean> whereClause = createWhere();
       if (whereClause != null)
         cq.where(whereClause);
 
@@ -158,7 +158,7 @@ public class JPAJoinQuery extends JPAAbstractJoinQuery implements JPACountQuery 
     return cq;
   }
 
-  private javax.persistence.criteria.Expression<Boolean> createWhere() throws ODataApplicationException {
+  private jakarta.persistence.criteria.Expression<Boolean> createWhere() throws ODataApplicationException {
     return addWhereClause(super.createWhere(uriResource, navigationInfo), createProtectionWhere(claimsProvider));
   }
 

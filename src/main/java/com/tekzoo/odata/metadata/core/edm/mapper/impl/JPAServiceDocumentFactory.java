@@ -1,6 +1,6 @@
 package com.tekzoo.odata.metadata.core.edm.mapper.impl;
 
-import javax.persistence.metamodel.Metamodel;
+import jakarta.persistence.metamodel.Metamodel;
 
 import com.tekzoo.odata.metadata.api.JPAEdmMetadataPostProcessor;
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAEdmNameBuilder;

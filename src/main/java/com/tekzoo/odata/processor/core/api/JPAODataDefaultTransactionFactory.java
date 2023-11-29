@@ -5,9 +5,9 @@ import static com.tekzoo.odata.processor.core.exception.ODataJPATransactionExcep
 import java.util.Objects;
 
 import javax.annotation.Nonnull;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityTransaction;
-import javax.persistence.RollbackException;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityTransaction;
+import jakarta.persistence.RollbackException;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

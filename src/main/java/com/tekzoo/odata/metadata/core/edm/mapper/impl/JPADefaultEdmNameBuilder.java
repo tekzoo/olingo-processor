@@ -3,9 +3,9 @@ package com.tekzoo.odata.metadata.core.edm.mapper.impl;
 import java.util.Objects;
 
 import javax.annotation.Nonnull;
-import javax.persistence.metamodel.Attribute;
-import javax.persistence.metamodel.EmbeddableType;
-import javax.persistence.metamodel.EntityType;
+import jakarta.persistence.metamodel.Attribute;
+import jakarta.persistence.metamodel.EmbeddableType;
+import jakarta.persistence.metamodel.EntityType;
 
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAEdmNameBuilder;
 

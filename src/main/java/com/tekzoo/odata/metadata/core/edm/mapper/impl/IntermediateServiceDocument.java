@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 import java.util.Optional;
 
 import javax.annotation.CheckForNull;
-import javax.persistence.metamodel.Metamodel;
+import jakarta.persistence.metamodel.Metamodel;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

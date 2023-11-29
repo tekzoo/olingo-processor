@@ -3,10 +3,10 @@ package com.tekzoo.odata.processor.cb;
 import java.util.List;
 
 import javax.annotation.Nullable;
-import javax.persistence.criteria.Order;
-import javax.persistence.criteria.Root;
-import javax.persistence.criteria.Selection;
-import javax.persistence.criteria.Subquery;
+import jakarta.persistence.criteria.Order;
+import jakarta.persistence.criteria.Root;
+import jakarta.persistence.criteria.Selection;
+import jakarta.persistence.criteria.Subquery;
 
 public interface ProcessorSubquery<T> extends Subquery<T> , ProcessorSubQueryProvider{
 

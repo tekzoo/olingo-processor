@@ -2,7 +2,7 @@ package com.tekzoo.odata.metadata.core.edm.mapper.impl;
 
 import java.util.List;
 
-import javax.persistence.metamodel.EmbeddableType;
+import jakarta.persistence.metamodel.EmbeddableType;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

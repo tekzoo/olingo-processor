@@ -4,9 +4,9 @@
 package com.tekzoo.odata.metadata.core.edm.annotation;
 
 import javax.annotation.CheckForNull;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.From;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.Expression;
+import jakarta.persistence.criteria.From;
 
 /**
  * Provides a set to methods to extend or influence the generated query.<p>

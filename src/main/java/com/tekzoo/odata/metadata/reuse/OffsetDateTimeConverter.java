@@ -3,7 +3,7 @@ package com.tekzoo.odata.metadata.reuse;
 import java.time.OffsetDateTime;
 import java.time.ZonedDateTime;
 
-import javax.persistence.AttributeConverter;
+import jakarta.persistence.AttributeConverter;
 
 /**
  * Default converter to convert from {@link OffsetDateTime} to {@link ZonedDateTime}. This is

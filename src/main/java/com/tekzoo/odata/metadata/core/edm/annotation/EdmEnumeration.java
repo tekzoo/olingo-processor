@@ -6,8 +6,8 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
-import javax.persistence.AttributeConverter;
-import javax.persistence.Enumerated;
+import jakarta.persistence.AttributeConverter;
+import jakarta.persistence.Enumerated;
 
 /**
  * Annotation to tag Java enumerations that shall be provided via an OData service. For details about OData Enumerations

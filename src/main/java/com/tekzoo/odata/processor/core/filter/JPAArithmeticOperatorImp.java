@@ -1,7 +1,7 @@
 package com.tekzoo.odata.processor.core.filter;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.Expression;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.Expression;
 
 import org.apache.olingo.commons.api.http.HttpStatusCode;
 import org.apache.olingo.server.api.ODataApplicationException;
@@ -59,7 +59,7 @@ class JPAArithmeticOperatorImp implements JPAArithmeticOperator {
   /*
    * (non-Javadoc)
    * 
-   * @see com.tekzoo.odata.processor.core.filter.JPAArithmeticOperator#getLeft(javax.persistence.criteria.
+   * @see com.tekzoo.odata.processor.core.filter.JPAArithmeticOperator#getLeft(jakarta.persistence.criteria.
    * CriteriaBuilder)
    */
   @Override
@@ -77,7 +77,7 @@ class JPAArithmeticOperatorImp implements JPAArithmeticOperator {
   /*
    * (non-Javadoc)
    * 
-   * @see com.tekzoo.odata.processor.core.filter.JPAArithmeticOperator#getRightAsNumber(javax.persistence.criteria.
+   * @see com.tekzoo.odata.processor.core.filter.JPAArithmeticOperator#getRightAsNumber(jakarta.persistence.criteria.
    * CriteriaBuilder)
    */
   @Override

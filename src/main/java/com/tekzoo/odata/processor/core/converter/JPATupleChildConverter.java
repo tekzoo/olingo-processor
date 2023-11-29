@@ -11,7 +11,7 @@ import java.util.Map.Entry;
 import java.util.Optional;
 
 import javax.annotation.Nonnull;
-import javax.persistence.Tuple;
+import jakarta.persistence.Tuple;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

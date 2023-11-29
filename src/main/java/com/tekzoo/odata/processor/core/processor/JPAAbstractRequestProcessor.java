@@ -1,7 +1,7 @@
 package com.tekzoo.odata.processor.core.processor;
 
-import javax.persistence.EntityManager;
-import javax.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.criteria.CriteriaBuilder;
 
 import org.apache.olingo.commons.api.ex.ODataException;
 import org.apache.olingo.commons.api.format.ContentType;

@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-import javax.persistence.OptimisticLockException;
-import javax.persistence.RollbackException;
+import jakarta.persistence.OptimisticLockException;
+import jakarta.persistence.RollbackException;
 
 import org.apache.olingo.commons.api.format.ContentType;
 import org.apache.olingo.commons.api.format.PreferenceName;

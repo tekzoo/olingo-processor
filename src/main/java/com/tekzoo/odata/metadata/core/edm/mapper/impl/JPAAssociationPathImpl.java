@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import javax.annotation.Nonnull;
-import javax.persistence.metamodel.Attribute.PersistentAttributeType;
+import jakarta.persistence.metamodel.Attribute.PersistentAttributeType;
 
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAAssociationAttribute;
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAAssociationPath;

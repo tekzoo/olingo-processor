@@ -1,12 +1,12 @@
 package com.tekzoo.odata.processor.core.api;
 
-import javax.persistence.RollbackException;
+import jakarta.persistence.RollbackException;
 
 import com.tekzoo.odata.processor.core.exception.ODataJPATransactionException;
 
 /**
  * A wrapper to abstract from various transaction APIs provided by JAVA or e.g. Spring like
- * javax.persistence.EntityTransaction, javax.transaction.UserTransaction, javax.transaction.Transaction or
+ * jakarta.persistence.EntityTransaction, jakarta.transaction.UserTransaction, jakarta.transaction.Transaction or
  * org.springframework.transaction.jta.JtaTransactionManager. </p>
  * 
  * JPA Processor needs to be able to create transactions to be able to handle <a

@@ -9,7 +9,7 @@ import java.lang.reflect.Parameter;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 
 import org.apache.olingo.commons.api.data.Annotatable;
 import org.apache.olingo.commons.api.edm.EdmFunction;

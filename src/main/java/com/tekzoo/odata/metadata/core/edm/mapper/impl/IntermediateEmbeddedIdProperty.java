@@ -4,7 +4,7 @@ import static com.tekzoo.odata.metadata.core.edm.mapper.exception.ODataJPAModelE
 
 import java.lang.reflect.AnnotatedElement;
 
-import javax.persistence.metamodel.Attribute;
+import jakarta.persistence.metamodel.Attribute;
 
 import com.tekzoo.odata.metadata.core.edm.annotation.EdmTransient;
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAEdmNameBuilder;

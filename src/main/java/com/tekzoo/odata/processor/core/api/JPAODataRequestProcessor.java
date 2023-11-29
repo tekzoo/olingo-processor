@@ -1,7 +1,7 @@
 package com.tekzoo.odata.processor.core.api;
 
-import javax.persistence.OptimisticLockException;
-import javax.persistence.RollbackException;
+import jakarta.persistence.OptimisticLockException;
+import jakarta.persistence.RollbackException;
 
 import org.apache.olingo.commons.api.ex.ODataException;
 import org.apache.olingo.commons.api.format.ContentType;

@@ -1,7 +1,7 @@
 package com.tekzoo.odata.processor.core.query;
 
-import javax.persistence.Tuple;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.Tuple;
+import jakarta.persistence.TypedQuery;
 
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAPath;
 

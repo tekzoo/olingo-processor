@@ -6,7 +6,7 @@ import java.util.Optional;
 
 import javax.annotation.CheckForNull;
 import javax.annotation.Nonnull;
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 
 import org.apache.olingo.server.api.uri.UriInfoResource;
 

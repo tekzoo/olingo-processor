@@ -3,17 +3,17 @@ package com.tekzoo.odata.metadata.core.edm.mapper.impl;
 import static com.tekzoo.odata.metadata.core.edm.mapper.exception.ODataJPAModelException.MessageKeys.NOT_SUPPORTED_NO_IMPLICIT_COLUMNS;
 import static com.tekzoo.odata.metadata.core.edm.mapper.exception.ODataJPAModelException.MessageKeys.NOT_SUPPORTED_NO_IMPLICIT_COLUMNS_COMPLEX;
 import static com.tekzoo.odata.metadata.core.edm.mapper.exception.ODataJPAModelException.MessageKeys.NOT_SUPPORTED_PROTECTED_COLLECTION;
-import static javax.persistence.metamodel.Type.PersistenceType.EMBEDDABLE;
+import static jakarta.persistence.metamodel.Type.PersistenceType.EMBEDDABLE;
 
 import java.lang.reflect.AnnotatedElement;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.CollectionTable;
-import javax.persistence.JoinColumn;
-import javax.persistence.metamodel.PluralAttribute;
-import javax.persistence.metamodel.Type;
-import javax.persistence.metamodel.Type.PersistenceType;
+import jakarta.persistence.CollectionTable;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.metamodel.PluralAttribute;
+import jakarta.persistence.metamodel.Type;
+import jakarta.persistence.metamodel.Type.PersistenceType;
 
 import org.apache.olingo.commons.api.edm.FullQualifiedName;
 

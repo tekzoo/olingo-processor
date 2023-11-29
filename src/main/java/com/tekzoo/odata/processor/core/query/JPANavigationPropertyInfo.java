@@ -3,7 +3,7 @@ package com.tekzoo.odata.processor.core.query;
 import java.util.Collections;
 import java.util.List;
 
-import javax.persistence.criteria.From;
+import jakarta.persistence.criteria.From;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

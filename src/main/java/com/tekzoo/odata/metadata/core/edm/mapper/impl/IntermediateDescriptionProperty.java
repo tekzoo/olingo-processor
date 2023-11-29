@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinColumns;
-import javax.persistence.metamodel.Attribute;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinColumns;
+import jakarta.persistence.metamodel.Attribute;
 
 import com.tekzoo.odata.metadata.core.edm.annotation.EdmDescriptionAssociation;
 import com.tekzoo.odata.metadata.core.edm.annotation.EdmDescriptionAssociation.valueAssignment;

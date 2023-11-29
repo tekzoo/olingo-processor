@@ -3,12 +3,12 @@ package com.tekzoo.odata.metadata.api;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 import javax.sql.DataSource;
 
 public class JPAEntityManagerFactory {
-  private static final String ENTITY_MANAGER_DATA_SOURCE = "javax.persistence.nonJtaDataSource";
+  private static final String ENTITY_MANAGER_DATA_SOURCE = "jakarta.persistence.nonJtaDataSource";
   private static Map<String, Map<Integer, EntityManagerFactory>> emfMap;
 
   private JPAEntityManagerFactory() {

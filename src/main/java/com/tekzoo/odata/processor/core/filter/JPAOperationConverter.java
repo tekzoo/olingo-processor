@@ -3,8 +3,8 @@ package com.tekzoo.odata.processor.core.filter;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.Expression;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.Expression;
 
 import org.apache.olingo.server.api.ODataApplicationException;
 import org.apache.olingo.server.api.uri.queryoption.expression.UnaryOperatorKind;

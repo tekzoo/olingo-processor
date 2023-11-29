@@ -1,7 +1,7 @@
 package com.tekzoo.odata.processor.cb;
 
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Root;
 
 public interface ProcessorCriteriaQuery<T>  extends CriteriaQuery<T> , ProcessorSubQueryProvider{
 

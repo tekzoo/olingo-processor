@@ -2,7 +2,7 @@ package com.tekzoo.odata.processor.core.query;
 import java.util.List;
 import java.util.Map;
 
-import javax.persistence.AttributeConverter;
+import jakarta.persistence.AttributeConverter;
 
 import com.tekzoo.odata.metadata.core.edm.mapper.api.JPAAttribute;
 import com.tekzoo.odata.processor.core.exception.ODataJPAKeyPairException;

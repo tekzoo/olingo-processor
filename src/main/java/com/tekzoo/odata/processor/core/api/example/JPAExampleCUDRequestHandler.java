@@ -19,10 +19,10 @@ import java.util.Map.Entry;
 import java.util.Optional;
 import java.util.regex.Pattern;
 
-import javax.persistence.EntityManager;
-import javax.persistence.GeneratedValue;
-import javax.persistence.metamodel.EntityType;
-import javax.persistence.metamodel.SingularAttribute;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.metamodel.EntityType;
+import jakarta.persistence.metamodel.SingularAttribute;
 
 import org.apache.olingo.commons.api.http.HttpMethod;
 import org.apache.olingo.commons.api.http.HttpStatusCode;
